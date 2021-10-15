@@ -62,7 +62,7 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #768ede;
+    color: #BC1F37;
 }
 
 img {
@@ -169,7 +169,7 @@ input:-webkit-autofill:focus {
     padding: 12px 30px;
     background-color: #ffffff;
     display: inline-block;
-    color: #768ede;
+    color: #BC1F37;
     text-transform: uppercase;
     border-radius: 50px;
     letter-spacing: 1.5px;
@@ -284,7 +284,7 @@ input:-webkit-autofill:focus {
 }
 
 .blue-color {
-    color: #5e88fc;
+    color: #BC0034;
 }
 
 .white-color {
@@ -359,7 +359,7 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area .right-button a:hover {
     background-color: rgba(255, 255, 255, 1);
-    color: #768ede;
+    color: #BC1F37;
 }
 
 .mainmenu-area ul.mainmenu {
@@ -426,7 +426,7 @@ input:-webkit-autofill:focus {
 
 .home-area {
     width: 100%;
-    background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
+    background: url('images/edesiamainbg.png') no-repeat scroll center bottom / cover;
     padding-top: 26vh;
     color: #ffffff;
     margin-bottom: 100px;
@@ -488,7 +488,7 @@ input:-webkit-autofill:focus {
 
 .feature-area {
     color: #ffffff;
-    background-color: #5e88fc;
+    background-color:#BC0034;
     background-image: url('images/feature-bg.png');
     background-position: bottom -120px center;
     background-repeat: no-repeat;
@@ -535,7 +535,7 @@ input:-webkit-autofill:focus {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
     overflow: hidden;
     z-index: 1;
-    color: #5e88fc;
+    color: #BC1F37;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -615,7 +615,7 @@ input:-webkit-autofill:focus {
 }
 
 .team-box h4 {
-    color: #5e88fc;
+    color: #BC1F37;
     font-weight: 600;
     font-size: 20px;
 }
@@ -684,7 +684,7 @@ input:-webkit-autofill:focus {
     border-radius: 50%;
     text-align: center;
     line-height: 70px;
-    color: rgba(72, 44, 191, 1);
+    color: #BC1F37;
     margin: 5px;
 }
 
@@ -869,7 +869,7 @@ input:-webkit-autofill:focus {
     outline: none;
     padding: 20px 30px 20px 60px;
     color: #434345;
-    border-left: 5px solid #5e88fc;
+    border-left: 5px solid #BC0034;
     cursor: pointer;
     position: relative;
 }
@@ -903,13 +903,13 @@ input:-webkit-autofill:focus {
 .toggole-boxs div {
     background-color: #ffffff;
     padding: 0 30px 20px 60px;
-    border-left: 5px solid #5e88fc;
+    border-left: 5px solid #BC0034;
 }
 
 /*-- 17. Subscribe-Form --*/
 
 .subscribe-area {
-    background: url('images/subscribe-bg.jpg') no-repeat scroll center center / cover;
+    background: url('images/edesiabg.png') no-repeat scroll center center / cover;
 }
 
 .subscribe-form {
@@ -927,7 +927,7 @@ input:-webkit-autofill:focus {
     height: auto;
     padding: 15px 180px 15px 30px;
     border-radius: 100px;
-    border: 1px solid #5e88fc;
+    border: 1px solid #BC0034;
 }
 
 .subscribe-form form .bttn-white {
@@ -987,7 +987,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-box:hover .box-icon {
-    color: #5e88fc;
+    color: #BC0034;
 }
 
 .footer-box:hover .box-icon:before {
@@ -997,7 +997,7 @@ input:-webkit-autofill:focus {
 .footer-bottom {
     padding: 20px 0;
     background-color: #f5f6ff;
-    border-top: 1px solid #5e88fc;
+    border-top: 1px solid #BC0034;
 }
 
 .footer-bottom .footer-menu ul {
@@ -1017,7 +1017,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-bottom .footer-menu ul li a:hover {
-    color: #5e88fc;
+    color: #BC0034;
 }
 
 /*-- 19. ScrollUp-Button --*/
@@ -1030,7 +1030,7 @@ input:-webkit-autofill:focus {
     text-align: center;
     line-height: 60px;
     font-size: 30px;
-    color: #5e88fc;
+    color: #BC0034;
 }
 
 .preloader {
@@ -1205,7 +1205,7 @@ input:-webkit-autofill:focus {
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 14px;
-    color: #768ede;
+    color: #BC1F37;
 }
 
 .post-single .post-body .read-more:after {
