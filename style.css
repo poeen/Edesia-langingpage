@@ -77,12 +77,12 @@ h4,
 h5,
 h6 {
     margin: 0 0 15px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.4em;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 3.5em;
 }
 
 h2 {
@@ -119,10 +119,11 @@ input:-webkit-autofill:focus {
 
 .bttn-white {
     position: relative;
-    background: rgb(72, 44, 191);
-    background: -webkit-linear-gradient(45deg, #BC1F37 -0.01%, #D01F2F 32.29%, #E02029 54.68%, #EA2025 74.48%, #ED2024 100%);
-    background: -o-linear-gradient(45deg, #BC1F37 -0.01%, #D01F2F 32.29%, #E02029 54.68%, #EA2025 74.48%, #ED2024 100%);
-    background: linear-gradient(45deg, #BC1F37 -0.01%, #D01F2F 32.29%, #E02029 54.68%, #EA2025 74.48%, #ED2024 100%);
+    background: #333333;
+    background: -webkit-linear-gradient(45deg, #333333 -0.01%, #444647 32.29%, #505355 54.68%, #505558 74.48%, #444647 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(45deg, #333333 -0.01%, #444647 32.29%, #505355 54.68%, #505558 74.48%, #444647 100%);
+    background: linear-gradient(45deg, #333333 -0.01%, #444647 32.29%, #505355 54.68%, #505558 74.48%, #444647 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
     overflow: hidden;
     z-index: 1;
@@ -228,8 +229,15 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
-    padding-top: 120px;
+    padding-top: 60px;
     padding-bottom: 120px;
+}
+
+.section-join {
+    padding-top: 160px;
+    @media (max-width: 994px) {
+        padding: 30px 0;
+    }
 }
 
 .upper {
@@ -284,7 +292,10 @@ input:-webkit-autofill:focus {
 }
 
 .blue-color {
-    color: #BC0034;
+    color: #333333;
+    font-weight: 300;
+    font-size: 32px;
+    align-items: stretch;
 }
 
 .white-color {
@@ -317,8 +328,7 @@ input:-webkit-autofill:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgb(188, 0, 52)
-;
+    background: rgb(188, 0, 52);
     background: -webkit-linear-gradient(45deg, #BC1F37 -0.01%, #D01F2F 32.29%, #E02029 54.68%, #EA2025 74.48%, #ED2024 100%);
     background: -o-linear-gradient(45deg, #BC1F37 -0.01%, #D01F2F 32.29%, #E02029 54.68%, #EA2025 74.48%, #ED2024 100%);
     background: linear-gradient(45deg, #BC1F37 -0.01%, #D01F2F 32.29%, #E02029 54.68%, #EA2025 74.48%, #ED2024 100%);
@@ -445,8 +455,11 @@ input:-webkit-autofill:focus {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: auto 100%;
-    margin-top: 90px;
-    margin-bottom: 220px;
+    margin-top: 200px;
+    /*margin-bottom: 220px;*/
+    @media (max-width: 1600px) {
+        background-size: auto 75%;
+    }
 }
 
 .progress-area .mobile-image {
@@ -459,8 +472,11 @@ input:-webkit-autofill:focus {
     background-position: right center;
     background-size: auto 100%;
     margin-top: 90px;
-    margin-bottom: 220px;
+    /*margin-bottom: 220px;*/
     overflow: hidden;
+    @media (max-width: 1600px) {
+        background-size: auto 75%;
+    }
 }
 
 .reviews_page .mobile-image {
@@ -470,11 +486,15 @@ input:-webkit-autofill:focus {
 /*-- 9. Video-Area --*/
 
 .video-area {
-    background-image: url('images/mobileOrdering.png');
+    background-image: url('images/foodAndMenu.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: auto 100%;
-    margin-bottom: 120px;
+    margin-left: 50px;
+    /*margin-bottom: 120px;*/
+    @media (max-width: 1600px) {
+        background-size: auto 75%;
+    }
 }
 
 .video-photo {
@@ -496,7 +516,6 @@ input:-webkit-autofill:focus {
     transform: translate(-50%, -50%);
     border-radius: 50%;
 }
-
 /*-- 10. Feature-Area --*/
 
 .feature-area {
@@ -507,19 +526,21 @@ input:-webkit-autofill:focus {
         /* Chrome10-25,Safari5.1-6 */
 
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
         overflow: hidden;
         z-index: 1;
-        background: linear-gradient(45deg, #BC1F37 -0.01%, #D01F2F 32.29%, #E02029 54.68%, #EA2025 74.48%, #ED2024 100%);
-        background: -o-linear-gradient(45deg, #BC1F37 -0.01%, #D01F2F 32.29%, #E02029 54.68%, #EA2025 74.48%, #ED2024 100%);
-        background: -webkit-linear-gradient(45deg, #BC1F37 -0.01%, #D01F2F 32.29%, #E02029 54.68%, #EA2025 74.48%, #BC1F37 100%);
+        background: #333333;
+        background: -webkit-linear-gradient(45deg, #333333 -0.01%, #444647 32.29%, #505355 54.68%, #505558 74.48%, #444647 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: -o-linear-gradient(45deg, #333333 -0.01%, #444647 32.29%, #505355 54.68%, #505558 74.48%, #444647 100%);
+        background: linear-gradient(45deg, #333333 -0.01%, #444647 32.29%, #505355 54.68%, #505558 74.48%, #444647 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#505558', GradientType=1);
 
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s;
         -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
         box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
-    margin-bottom: 142px;
 }
 
 
@@ -528,14 +549,16 @@ input:-webkit-autofill:focus {
 }
 
 .feature-area .mobile-image {
-    margin-bottom: -142px;
+    margin-bottom: -100px;
 }
 @media (max-width: 767px) {
     .feature-area {color: rgb(188, 0, 52);}
    
 }
 /*-- 11. Service-Box --*/
-
+.img-text{
+    background: white;
+}
 .service-box {
     position: relative;
     padding-left: 100px;
@@ -753,7 +776,6 @@ input:-webkit-autofill:focus {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    margin-top: 70px;
     margin-bottom: 100px;
     color: #ffffff;
 }
@@ -884,7 +906,8 @@ input:-webkit-autofill:focus {
 /*-- 16. Questions-area --*/
 
 .questions-area {
-    background-color: #f5f6ff;
+    padding-top: 20px !important;
+    background-color: white;
 }
 
 .toggole-boxs {
@@ -893,7 +916,7 @@ input:-webkit-autofill:focus {
 
 .toggole-boxs h3 {
     font-size: 18px;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     margin-bottom: 0;
     margin-top: 20px;
     outline: none;
@@ -931,7 +954,7 @@ input:-webkit-autofill:focus {
 }
 
 .toggole-boxs div {
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     padding: 0 30px 20px 60px;
     border-left: 5px solid #BC0034;
 }
