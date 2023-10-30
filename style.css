@@ -778,6 +778,10 @@ input:-webkit-autofill:focus {
     background-size: cover;
     margin-bottom: 100px;
     color: #ffffff;
+
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 .download-area .mobile-image {
